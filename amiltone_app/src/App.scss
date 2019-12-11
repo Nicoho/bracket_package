@@ -1,0 +1,52 @@
+.App {
+  .Tournament {
+    display: inline-flex;
+    padding-top: 20px;
+
+    .Final {
+      align-self: center;
+    }
+
+    .Team {
+      display: flex;
+
+      .beforeLink {
+        width: 20px;
+        height: 0px;
+        border: 1px solid black;
+        margin-top: 26px;
+        box-sizing: border-box;
+      }
+
+      .teamUnit {
+        border: 1px solid blue;
+        height: 50px;
+        width: 200px;
+        text-align: center;
+        box-sizing: border-box;
+      }
+
+      .oneVSone {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .firstRound {
+      padding-left: 20px;
+    }
+
+    .Round {
+      .offsetLink {
+        margin-top: -25px;
+        margin-bottom: -25px;
+        margin-left: 220px;
+        width: 20px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        border-right: 2px solid black;
+      }
+    }
+  }
+}
